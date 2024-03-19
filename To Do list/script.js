@@ -7,7 +7,7 @@ items.addEventListener(
     function(event){
         if(event.key=="Enter"){
             addToDo(this.value )
-            this.value==""
+            this.value==" ";
         }
     }
 )
