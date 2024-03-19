@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image:url(https://images.unsplash.com/photo-1470364798856-7a74180378dc?q=80&w=1889&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box{
+
+    border: 2px solid green;
+    height: 500px;
+    width: 750px;
+   
+    border-radius: 5px;
+    padding: 15px;
+    background-color: transparent;
+
+}
+
+.box:hover{
+    
+    box-shadow: 0px 0px 10px blue;
+}
+#items{
+    
+    padding: 10px;
+    font-size: 22px;
+    width:100%;
+    border: 0px ;
+    outline: 0px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0 ,0.7);
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0);
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    display: block;
+
+}
+#to-do-box li{
+    position: relative;
+    list-style: none;
+    color: rgb(2, 12, 21);
+    background-color: rgba(145, 156, 157, 0.197);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: justify;
+    padding-right: 25px;
+    margin-top: 10px;
+    user-select: none;
+    
+}
+#to-do-box li i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+}
+.done{
+    text-decoration: line-through;
+    color: aliceblue;
+}
